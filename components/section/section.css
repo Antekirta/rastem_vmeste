@@ -1,0 +1,15 @@
+.section {
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  /*border: solid 1px #333;*/
+}
+
+.section__title {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: var(--font-lionel);
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -3px;
+}

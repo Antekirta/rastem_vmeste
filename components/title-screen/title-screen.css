@@ -1,0 +1,33 @@
+.title-screen {
+  padding-top: 60px;
+}
+
+.title-screen__title {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.title-screen__header {
+  font-family: var(--font-lionel);
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.title-screen__description {
+  margin-top: 10px;
+  font-family: var(--font-lionel);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.title-screen__actions {
+  position: relative;
+  left: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  margin: 40px auto auto auto;
+}

@@ -1,0 +1,9 @@
+import '../components/about-screen/about-screen.js';
+import '../components/image-text-block/image-text-block.js';
+import '../components/service-item/service-item.js';
+import '../components/services-screen/services-screen.js';
+import '../components/section/section.js';
+import '../components/action-button/action-button.js';
+import '../components/main-container/main-container.js';
+import '../components/title-screen/title-screen.js';
+import '../components/main-menu/main-menu'

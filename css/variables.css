@@ -1,0 +1,17 @@
+:root {
+  --color-brown: rgb(50,33,30);
+  --color-brown--light: rgb(192,166,145);
+  --color-brown--lightest: #d8d3c3;
+
+  /* Fonts */
+  --font-color-primary: rgb(43,47,68); /* Основной текст */
+  --font-color-secondary: rgb(69,68,66); /* Дополнительный текст */
+  --font-color-accent: rgb(220,157,138); /* Акцентный текст */
+  --font-color-light: rgb(225,230,226); /* Светлый текст */
+  --font-color-muted: rgb(192,191,178); /* Приглушенный текст */
+
+  --font-caveat: "Caveat", serif;
+  --font-amatic: "Amatic SC", serif;;
+  --font-nunito: "Nunito", serif;
+  --font-lionel: "Lionel", serif;
+}

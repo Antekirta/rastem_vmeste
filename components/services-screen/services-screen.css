@@ -1,0 +1,10 @@
+.services-screen__services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.services-screen__service-item {
+  margin-bottom: 50px;
+}

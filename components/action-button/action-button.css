@@ -1,0 +1,8 @@
+.action-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid var(--font-color-secondary);
+  font-family: var(--font-lionel);
+  font-weight: bold;
+  cursor: pointer;
+}

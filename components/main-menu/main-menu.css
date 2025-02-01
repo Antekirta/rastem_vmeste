@@ -1,0 +1,18 @@
+.main-menu__list {
+  display: flex;
+  justify-content: start;
+}
+
+.main-menu__item {
+  padding: 5px 10px;
+  margin-left: 15px;
+}
+
+.main-menu__link {
+  font-family: var(--font-lionel);
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--font-color-primary);
+  letter-spacing: -1px;
+}
