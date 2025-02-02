@@ -12,3 +12,4 @@ import '../components/action-button/action-button.js';
 import '../components/main-container/main-container.js';
 import '../components/title-screen/title-screen.js';
 import '../components/main-menu/main-menu'
+import '../components/contact-panel/contact-panel'

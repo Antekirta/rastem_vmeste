@@ -68,7 +68,7 @@
         </div>
 
         <div class="contact-panel">
-          <div class="action-button action-button--red title-screen__action-button" data-rough-animated="true">
+          <div data-modal-id="contacts-modal" class="action-button action-button--red contact-panel__action-button" data-rough-animated="true">
             <div class="action-button__bg">
               <svg></svg>
             </div>
@@ -105,7 +105,7 @@
           <div class="action-button__content">Узнать больше</div>
         </div>
 
-        <div class="action-button action-button--red title-screen__action-button" data-rough-animated="true">
+        <div data-modal-id="contacts-modal" class="action-button action-button--red title-screen__action-button" data-rough-animated="true">
           <div class="action-button__bg">
             <svg></svg>
           </div>
@@ -457,12 +457,47 @@
     </div>
 
     <div class="modal__action">
-      <div class="action-button action-button--red modal__action-button" data-rough-animated="true">
+      <div class="action-button lalala action-button--red modal__action-button" data-rough-animated="true">
         <div class="action-button__bg">
           <svg></svg>
         </div>
 
         <div class="action-button__content">Записаться на занятие</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="contacts-modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__window">
+    <div class="modal__window-cross">
+      <svg viewBox="0 0 365.696 365.696"><path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0"></path></svg>
+    </div>
+
+    <h3 class="modal__window-title">Мы вас ждём!</h3>
+
+    <div class="modal__content">
+      <div class="modal-contacts">
+        <div class="modal-contacts__address">г. Калининград, ул. Коммунальная, 6, второй этаж.</div>
+
+        <div class="modal-contacts__hours">Расписание</div>
+
+        <div class="modal-contacts__item">
+          <div class="modal-contacts__item-label">Телефон: </div>
+          <div class="modal-contacts__item-value"><a class="modal-contacts__item-phone" target="_blank" href="tel:+79114613040">+7 911 461 30 40 (кликните, чтобы позвонить)</a></div>
+        </div>
+
+        <div class="modal-contacts__item">
+          <div class="modal-contacts__item-label">WhatsApp: </div>
+          <div class="modal-contacts__item-value"><a class="modal-contacts__item-phone" target="_blank" href="https://wa.me/79114613040">+7 911 461 30 40 (кликните, чтобы написать)</a></div>
+        </div>
+
+        <div class="modal-contacts__item">
+          <div class="modal-contacts__item-label">Telegram: </div>
+          <div class="modal-contacts__item-value"><a class="modal-contacts__item-phone" target="_blank" href="https://t.me/An_t_e">+7 911 461 30 40  (кликните, чтобы написать)</a></div>
+        </div>
       </div>
     </div>
   </div>

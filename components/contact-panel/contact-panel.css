@@ -6,3 +6,7 @@
 .contact-panel__item {
   margin-left: 15px;
 }
+
+.contact-panel__action-button {
+  padding: 10px 20px;
+}
