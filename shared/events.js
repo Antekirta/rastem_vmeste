@@ -1,0 +1,2 @@
+export const EVENT_SHOW_MODAL = 'SHOW_MODAL'
+export const EVENT_HIDE_MODAL = 'HIDE_MODAL'
