@@ -11,21 +11,23 @@
 .main-header::before {
   content: '';
   position: absolute;
-  bottom: -2px;
+  top: 0;
   left: -40px;
   width: 40px;
-  height: 2px;
-  background: var(--font-color-primary);
+  height: 70px;
+  background: var(--color-brown--lightest);
+  border-bottom: solid 2px var(--font-color-primary);
 }
 
 .main-header::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  top: 0;
   right: -50px;
   width: 50px;
-  height: 2px;
-  background: var(--font-color-primary);
+  height: 70px;
+  background: var(--color-brown--lightest);
+  border-bottom: solid 2px var(--font-color-primary);
 }
 
 .main-header__container {

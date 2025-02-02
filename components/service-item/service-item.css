@@ -1,9 +1,17 @@
 .service-item {
+  position: relative;
   width: 300px;
-  border: solid 2px var(--font-color-primary);
   -webkit-box-shadow: 4px 4px 12px -4px var(--font-color-primary);
   -moz-box-shadow: 4px 4px 12px -4px var(--font-color-primary);
   box-shadow: 4px 4px 12px -4px var(--font-color-primary);
+}
+
+.service-item__svg {
+  position: absolute;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: -4px;
+  left: -4px;
 }
 
 .service-item__img-container {
@@ -40,15 +48,11 @@
 }
 
 .service-item__more {
-  width: 100px;
-  margin: 20px auto 10px auto;
-  padding: 3px 10px 5px 10px;
-  border: solid 2px var(--font-color-primary);
-  border-radius: 2px;
+  padding: 25px 0 20px 0;
   text-align: center;
-  font-family: var(--font-lionel);
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: -0.5px;
-  cursor: pointer;
+}
+
+.service-item__action-button {
+  padding: 5px 20px 7px 20px;
+  font-size: 18px!important;
 }

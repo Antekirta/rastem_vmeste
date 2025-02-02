@@ -30,63 +30,50 @@
 <div class="main-bg"></div>
 
 <div class="main-container">
+<!--  <svg class="main-container__svg"></svg>-->
+
   <div class="main-container__content">
     <header class="main-header">
       <div class="container main-header__container">
-        <div class="logo">Logo</div>
+        <div class="logo">
+          <img class="logo__img" src="./img/logo__old.png" alt="">
+        </div>
 
         <div class="main-menu main-header__main-menu">
           <div class="main-menu__list">
             <div class="main-menu__item">
+              <svg class="main-menu__item-svg"></svg>
+
               <a href="#" class="main-menu__link">О нас</a>
             </div>
 
             <div class="main-menu__item">
+              <svg class="main-menu__item-svg"></svg>
+
               <a href="#" class="main-menu__link">Услуги</a>
             </div>
 
             <div class="main-menu__item">
+              <svg class="main-menu__item-svg"></svg>
+
               <a href="#" class="main-menu__link">Цены</a>
             </div>
 
             <div class="main-menu__item">
+              <svg class="main-menu__item-svg"></svg>
+
               <a href="#" class="main-menu__link">Контакты</a>
             </div>
           </div>
         </div>
 
         <div class="contact-panel">
-          <div class="contact-panel__item">
-            <svg width="30" height="30" version="1.1" id="fi_134937" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                 x="0px" y="0px" viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
-          <path style="fill:#2CB742;" d="M0,58l4.988-14.963C2.457,38.78,1,33.812,1,28.5C1,12.76,13.76,0,29.5,0S58,12.76,58,28.5
-              S45.24,57,29.5,57c-4.789,0-9.299-1.187-13.26-3.273L0,58z"></path>
-              <path style="fill:#FFFFFF;" d="M47.683,37.985c-1.316-2.487-6.169-5.331-6.169-5.331c-1.098-0.626-2.423-0.696-3.049,0.42
-              c0,0-1.577,1.891-1.978,2.163c-1.832,1.241-3.529,1.193-5.242-0.52l-3.981-3.981l-3.981-3.981c-1.713-1.713-1.761-3.41-0.52-5.242
-              c0.272-0.401,2.163-1.978,2.163-1.978c1.116-0.627,1.046-1.951,0.42-3.049c0,0-2.844-4.853-5.331-6.169
-              c-1.058-0.56-2.357-0.364-3.203,0.482l-1.758,1.758c-5.577,5.577-2.831,11.873,2.746,17.45l5.097,5.097l5.097,5.097
-              c5.577,5.577,11.873,8.323,17.45,2.746l1.758-1.758C48.048,40.341,48.243,39.042,47.683,37.985z"></path>
-          </svg>
-          </div>
+          <div class="action-button action-button--red title-screen__action-button" data-rough-animated="true">
+            <div class="action-button__bg">
+              <svg></svg>
+            </div>
 
-
-          <div class="contact-panel__item">
-            <svg id="fi_5968804" enable-background="new 0 0 512 512" height="30" viewBox="0 0 512 512" width="30"
-                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <linearGradient id="Oval_00000153700382965497781030000014141664724916521630_"
-                              gradientTransform="matrix(1000 0 0 -1000 1981017 6242157)" gradientUnits="userSpaceOnUse"
-                              x1="-1980.761" x2="-1980.761" y1="6242.157" y2="6241.649">
-                <stop offset="0" stop-color="#2aabee"></stop>
-                <stop offset="1" stop-color="#229ed9"></stop>
-              </linearGradient>
-              <g id="Artboard" clip-rule="evenodd" fill-rule="evenodd">
-                <circle id="Oval" cx="256" cy="256" fill="url(#Oval_00000153700382965497781030000014141664724916521630_)"
-                        r="256"></circle>
-                <path id="Path-3"
-                      d="m115.88 253.298c74.629-32.515 124.394-53.951 149.293-64.307 71.094-29.57 85.867-34.707 95.495-34.877 2.118-.037 6.853.488 9.92 2.977 4.55 3.692 4.576 11.706 4.071 17.01-3.853 40.48-20.523 138.713-29.004 184.051-3.589 19.184-10.655 25.617-17.495 26.246-14.866 1.368-26.155-9.825-40.554-19.263-22.531-14.77-35.26-23.964-57.131-38.376-25.275-16.656-8.89-25.81 5.514-40.771 3.77-3.915 69.271-63.494 70.539-68.899.159-.676.306-3.196-1.191-4.526s-3.706-.876-5.3-.514c-2.26.513-38.254 24.304-107.982 71.372-10.217 7.016-19.471 10.434-27.762 10.255-9.141-.197-26.723-5.168-39.794-9.417-16.032-5.211-28.774-7.967-27.664-16.817.578-4.611 6.926-9.325 19.045-14.144z"
-                      fill="#fff"></path>
-              </g>
-            </svg>
+            <div class="action-button__content">Связаться с нами</div>
           </div>
         </div>
       </div>
@@ -110,17 +97,36 @@
       </div>
 
       <div class="title-screen__actions">
-        <div class="action-button">Узнать больше</div>
+        <div class="action-button action-button--blue title-screen__action-button" data-rough-fill="blue" data-rough-animated="true">
+          <div class="action-button__bg">
+            <svg></svg>
+          </div>
 
-        <div class="action-button">Связаться с нами</div>
+          <div class="action-button__content">Узнать больше</div>
+        </div>
+
+        <div class="action-button action-button--red title-screen__action-button" data-rough-animated="true">
+          <div class="action-button__bg">
+            <svg></svg>
+          </div>
+
+          <div class="action-button__content">Связаться с нами</div>
+        </div>
       </div>
     </section>
 
     <section class="section services-screen">
-      <h2 class="section__title">Услуги</h2>
+      <div class="section__title">
+        <div class="section__title-content">
+          <svg class="section__title-svg"></svg>
+          Услуги
+        </div>
+      </div>
 
       <div class="services-screen__services-list">
         <div class="service-item services-screen__service-item">
+          <svg class="service-item__svg"></svg>
+
           <div class="service-item__img-container">
             <img src="./img/group_class.jpg" alt="" class="service-item__image">
           </div>
@@ -129,11 +135,22 @@
             <div class="service-item__title">Групповые занятия</div>
             <div class="service-item__description">На групповых занятиях мы всей группой садимся и занимаемся разными групповыми активностями. Играем там группой, учимся тоже группой, все группой, в общем. Как-то так.</div>
             <div class="service-item__price">700 р/занятие</div>
-            <div class="service-item__more">Подробнее</div>
+
+            <div class="service-item__more">
+              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+                <div class="action-button__bg">
+                  <svg id="action-button__know-more"></svg>
+                </div>
+
+                <div class="action-button__content">Подробнее</div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="service-item services-screen__service-item">
+          <svg class="service-item__svg"></svg>
+
           <div class="service-item__img-container">
             <img src="./img/playroom.jpg" alt="" class="service-item__image">
           </div>
@@ -142,11 +159,22 @@
             <div class="service-item__title">Игровая комната</div>
             <div class="service-item__description">В игровой комнате мы играем. Вернее, наши дети играют, а мы просто рядом сидим и собираем с вас деньги. Вернее, даже нет, мы платим людям, которые рядом сидят и собирают деньги.</div>
             <div class="service-item__price">300 р/час</div>
-            <div class="service-item__more">Подробнее</div>
+
+            <div class="service-item__more">
+              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+                <div class="action-button__bg">
+                  <svg id="action-button__know-more"></svg>
+                </div>
+
+                <div class="action-button__content">Подробнее</div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="service-item services-screen__service-item">
+          <svg class="service-item__svg"></svg>
+
           <div class="service-item__img-container">
             <img src="./img/coworking.jpg" alt="" class="service-item__image">
           </div>
@@ -155,11 +183,22 @@
             <div class="service-item__title">Коворкинг</div>
             <div class="service-item__description">Сидите, тихо работаете, мы вам интернет раздаем, чай с печеньками, дидятко кайфует в соседней комнате, вы его не слышите и не видите до тех пор, пока сами не захотите.</div>
             <div class="service-item__price">150 р/час</div>
-            <div class="service-item__more">Подробнее</div>
+
+            <div class="service-item__more">
+              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+                <div class="action-button__bg">
+                  <svg id="action-button__know-more"></svg>
+                </div>
+
+                <div class="action-button__content">Подробнее</div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="service-item services-screen__service-item">
+          <svg class="service-item__svg"></svg>
+
           <div class="service-item__img-container">
             <img src="./img/waiting_area.jpg" alt="" class="service-item__image">
           </div>
@@ -168,11 +207,22 @@
             <div class="service-item__title">Зона ожидания для родителей</div>
             <div class="service-item__description">Можете здесь посидеть в ожидании своего ребенка, только ноутбук доставать нельзя, это уже считается работа, а работать надо в коворкинге, а он денег стоит. В общем, будет безобразный скандал.</div>
             <div class="service-item__price">Бесплатно</div>
-            <div class="service-item__more">Подробнее</div>
+
+            <div class="service-item__more">
+              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+                <div class="action-button__bg">
+                  <svg id="action-button__know-more"></svg>
+                </div>
+
+                <div class="action-button__content">Подробнее</div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="service-item services-screen__service-item">
+          <svg class="service-item__svg"></svg>
+
           <div class="service-item__img-container">
             <img src="./img/club.jpg" alt="" class="service-item__image">
           </div>
@@ -181,11 +231,22 @@
             <div class="service-item__title">Клуб для родителей</div>
             <div class="service-item__description">Можете тут посидеть, повязать, книжку обсудить, по-английски поговорить, включить Prodigy и нормально так оттянуться под стробоскопом, пока ваши детишки втыкают в раскраски.</div>
             <div class="service-item__price">250 р/2,5 часа</div>
-            <div class="service-item__more">Подробнее</div>
+
+            <div class="service-item__more">
+              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+                <div class="action-button__bg">
+                  <svg id="action-button__know-more"></svg>
+                </div>
+
+                <div class="action-button__content">Подробнее</div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="service-item services-screen__service-item">
+          <svg class="service-item__svg"></svg>
+
           <div class="service-item__img-container">
             <img src="./img/master.jpg" alt="" class="service-item__image">
           </div>
@@ -194,14 +255,28 @@
             <div class="service-item__title">Мастер-классы</div>
             <div class="service-item__description">Не можешь – научим, не хочешь – заставим. Мастер-классы по рисованию и рукоделию для детей и их родителей. Откройте в себе талант или окончательно убедитесь, что бесталанны.</div>
             <div class="service-item__price">300-700 р/мероприятие</div>
-            <div class="service-item__more">Подробнее</div>
+
+            <div class="service-item__more">
+              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+                <div class="action-button__bg">
+                  <svg id="action-button__know-more"></svg>
+                </div>
+
+                <div class="action-button__content">Подробнее</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="section about-screen">
-      <div class="section__title">О Нас</div>
+      <div class="section__title">
+        <div class="section__title-content">
+          <svg class="section__title-svg"></svg>
+          О Нас
+        </div>
+      </div>
 
       <div class="image-text-block image-text-block--left about-screen__text-block">
         <div class="image-text-block__text">
@@ -222,6 +297,8 @@
         </div>
 
         <figure class="image-text-block__image-container">
+          <svg class="image-text-block__image-container-svg"></svg>
+
           <div id="siema-image-text-block-1" class="siema image-text-block__siema">
             <img src="./img/about/family.jpg" alt="" class="image-text-block__img">
             <img src="./img/about/vasilisa_table.jpg" alt="" class="image-text-block__img">
@@ -248,6 +325,8 @@
         </div>
 
         <figure class="image-text-block__image-container">
+          <svg class="image-text-block__image-container-svg"></svg>
+
           <div id="siema-image-text-block-2" class="siema image-text-block__siema">
             <img src="./img/about/vasilisa_table.jpg" alt="" class="image-text-block__img">
             <img src="./img/about/family.jpg" alt="" class="image-text-block__img">
@@ -273,6 +352,8 @@
         </div>
 
         <figure class="image-text-block__image-container">
+          <svg class="image-text-block__image-container-svg"></svg>
+
           <div id="siema-image-text-block-3" class="siema image-text-block__siema">
             <img src="./img/about/vasilisa.jpg" alt="" class="image-text-block__img">
             <img src="./img/about/family.jpg" alt="" class="image-text-block__img">
@@ -285,19 +366,60 @@
     </section>
 
     <section class="section contact-screen">
-      <div class="section__title">Контакты</div>
+      <div class="section__title">
+        <div class="section__title-content">
+          <svg class="section__title-svg"></svg>
+          Контакты
+        </div>
+      </div>
 
       <div class="image-text-block image-text-block--left">
-        <div class="image-text-block__text">
-          <p>г. Калининград, ул. Коммунальная, 6</p>
-          <p>Телефон: <a target="_blank" href="tel:+79114613040">+7 911 461 30 40</a></p>
-          <p>WhatsApp:  <a target="_blank" href="https://wa.me/79114613040">+7 911 461 30 40</a></p>
-          <p>Telegram:  <a target="_blank" href="https://t.me/An_t_e">+7 911 461 30 40</a></p>
+        <div class="image-text-block__text contact-screen__text">
+          <p>Мы находимся по адресу: </p>
+          <p><b>г. Калининград, ул. Коммунальная, 6, второй этаж.</b></p>
+          <p class="contact-screen__contact"><b class="contact-screen__contact-label">Телефон</b> <a class="contact-screen__phone" target="_blank" href="tel:+79114613040">+7 911 461 30 40</a></p>
+
+          <p class="contact-screen__contact">
+            <b class="contact-screen__contact-label">WhatsApp <svg width="30" height="30" version="1.1" id="fi_134937" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                   x="0px" y="0px" viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
+          <path style="fill:#2CB742;" d="M0,58l4.988-14.963C2.457,38.78,1,33.812,1,28.5C1,12.76,13.76,0,29.5,0S58,12.76,58,28.5
+              S45.24,57,29.5,57c-4.789,0-9.299-1.187-13.26-3.273L0,58z"></path>
+              <path style="fill:#FFFFFF;" d="M47.683,37.985c-1.316-2.487-6.169-5.331-6.169-5.331c-1.098-0.626-2.423-0.696-3.049,0.42
+              c0,0-1.577,1.891-1.978,2.163c-1.832,1.241-3.529,1.193-5.242-0.52l-3.981-3.981l-3.981-3.981c-1.713-1.713-1.761-3.41-0.52-5.242
+              c0.272-0.401,2.163-1.978,2.163-1.978c1.116-0.627,1.046-1.951,0.42-3.049c0,0-2.844-4.853-5.331-6.169
+              c-1.058-0.56-2.357-0.364-3.203,0.482l-1.758,1.758c-5.577,5.577-2.831,11.873,2.746,17.45l5.097,5.097l5.097,5.097
+              c5.577,5.577,11.873,8.323,17.45,2.746l1.758-1.758C48.048,40.341,48.243,39.042,47.683,37.985z"></path>
+          </svg></b>
+            <a class="contact-screen__phone" target="_blank" href="https://wa.me/79114613040">+7 911 461 30 40</a></p>
+
+          <p class="contact-screen__contact">
+            <b class="contact-screen__contact-label">Telegram <svg id="fi_5968804" enable-background="new 0 0 512 512" height="30" viewBox="0 0 512 512" width="30"
+                                                                   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <linearGradient id="Oval_00000153700382965497781030000014141664724916521630_"
+                              gradientTransform="matrix(1000 0 0 -1000 1981017 6242157)" gradientUnits="userSpaceOnUse"
+                              x1="-1980.761" x2="-1980.761" y1="6242.157" y2="6241.649">
+                <stop offset="0" stop-color="#2aabee"></stop>
+                <stop offset="1" stop-color="#229ed9"></stop>
+              </linearGradient>
+              <g id="Artboard" clip-rule="evenodd" fill-rule="evenodd">
+                <circle id="Oval" cx="256" cy="256" fill="url(#Oval_00000153700382965497781030000014141664724916521630_)"
+                        r="256"></circle>
+                <path id="Path-3"
+                      d="m115.88 253.298c74.629-32.515 124.394-53.951 149.293-64.307 71.094-29.57 85.867-34.707 95.495-34.877 2.118-.037 6.853.488 9.92 2.977 4.55 3.692 4.576 11.706 4.071 17.01-3.853 40.48-20.523 138.713-29.004 184.051-3.589 19.184-10.655 25.617-17.495 26.246-14.866 1.368-26.155-9.825-40.554-19.263-22.531-14.77-35.26-23.964-57.131-38.376-25.275-16.656-8.89-25.81 5.514-40.771 3.77-3.915 69.271-63.494 70.539-68.899.159-.676.306-3.196-1.191-4.526s-3.706-.876-5.3-.514c-2.26.513-38.254 24.304-107.982 71.372-10.217 7.016-19.471 10.434-27.762 10.255-9.141-.197-26.723-5.168-39.794-9.417-16.032-5.211-28.774-7.967-27.664-16.817.578-4.611 6.926-9.325 19.045-14.144z"
+                      fill="#fff"></path>
+              </g>
+            </svg></b>
+            <a class="contact-screen__phone" target="_blank" href="https://t.me/An_t_e">+7 911 461 30 40</a>
+          </p>
         </div>
 
         <figure class="image-text-block__image-container">
           <div class="map">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa173fdf52a6259eb8adbf390439064e645c08b93ff55db7ff6fae7135421798b&amp;width=650&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>          </div>
+            <svg class="map__svg"></svg>
+
+            <div class="map__content">
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa173fdf52a6259eb8adbf390439064e645c08b93ff55db7ff6fae7135421798b&amp;width=650&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>          </div>
+            </div>
         </figure>
       </div>
     </section>

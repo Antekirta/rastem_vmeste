@@ -56,6 +56,10 @@
   left: 8px;
   display: flex;
   justify-content: space-between;
-  width: 360px;
+  width: 450px;
   margin: 40px auto auto auto;
+}
+
+.title-screen__action-button {
+  padding: 10px 20px;
 }

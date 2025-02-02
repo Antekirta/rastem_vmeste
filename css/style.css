@@ -1,3 +1,5 @@
+@import '../components/contact-screen/contact-screen.css';
+@import '../components/map/map.css';
 @import '../components/siema/siema.css';
 @import '../components/about-screen/about-screen.css';
 @import '../components/image-text-block/image-text-block.css';
@@ -53,7 +55,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url('../img/bg3.jpg');
+  background: url('../img/bg5.jpg');
   background-size: cover;
   /*opacity: 1;*/
 }

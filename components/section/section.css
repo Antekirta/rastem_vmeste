@@ -6,10 +6,28 @@
 }
 
 .section__title {
-  margin-bottom: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.section__title-svg {
+  position: absolute;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: -4px;
+  left: -4px;
+}
+
+.section__title-content {
+  position: relative;
+  padding: 20px 40px;
   text-align: center;
+  text-transform: uppercase;
   font-family: var(--font-lionel);
   font-size: 50px;
   font-weight: 900;
-  letter-spacing: -3px;
+  letter-spacing: -5px;
 }
