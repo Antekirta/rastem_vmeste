@@ -23,6 +23,7 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
+    "roughjs": "^4.6.6",
     "siema": "^1.5.1"
   }
 }

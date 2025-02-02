@@ -1,7 +1,7 @@
 :root {
   --color-brown: rgb(50,33,30);
   --color-brown--light: rgb(192,166,145);
-  --color-brown--lightest: #d8d3c3;
+  --color-brown--lightest: rgba(216, 211, 195, 1);
 
   /* Fonts */
   --font-color-primary: rgb(43,47,68); /* Основной текст */

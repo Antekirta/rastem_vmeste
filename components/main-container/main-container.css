@@ -16,7 +16,7 @@
   overflow: auto;
   padding: 0 40px 20px 40px;
   box-sizing: border-box;
-  background: var(--color-brown--lightest);
+  background: rgba(216, 211, 195, 0.8);
   overflow-x: hidden;
 }
 

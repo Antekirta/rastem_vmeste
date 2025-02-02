@@ -1,3 +1,4 @@
+import '../components/siema/siema.js';
 import '../components/about-screen/about-screen.js';
 import '../components/image-text-block/image-text-block.js';
 import '../components/service-item/service-item.js';

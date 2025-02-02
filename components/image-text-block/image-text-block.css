@@ -36,6 +36,10 @@
   margin-bottom: 10px;
 }
 
+.image-text-block__siema {
+  width: 100%;
+}
+
 .image-text-block__image-container {
   width: 55%;
   text-align: center;
@@ -43,6 +47,7 @@
 }
 
 .image-text-block__img {
-  width: 100%;
+  width: 650px;
+  height: 500px;
   border-radius: 4px;
 }
