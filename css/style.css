@@ -1,3 +1,5 @@
+@import '../components/text-block/text-block.css';
+@import '../components/modal/modal.css';
 @import '../components/contact-screen/contact-screen.css';
 @import '../components/map/map.css';
 @import '../components/siema/siema.css';

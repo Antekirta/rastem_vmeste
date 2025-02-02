@@ -1,3 +1,5 @@
+import '../components/text-block/text-block.js';
+import '../components/modal/modal.js';
 import '../components/contact-screen/contact-screen.js';
 import '../components/map/map.js';
 import '../components/siema/siema.js';
