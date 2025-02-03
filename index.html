@@ -161,7 +161,7 @@
             <div class="service-item__price">300 р/час</div>
 
             <div class="service-item__more">
-              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+              <div data-modal-id="playroom-modal" class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
                 <div class="action-button__bg">
                   <svg id="action-button__know-more"></svg>
                 </div>
@@ -185,7 +185,7 @@
             <div class="service-item__price">150 р/час</div>
 
             <div class="service-item__more">
-              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+              <div data-modal-id="coworking-modal" class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
                 <div class="action-button__bg">
                   <svg id="action-button__know-more"></svg>
                 </div>
@@ -209,7 +209,7 @@
             <div class="service-item__price">Бесплатно</div>
 
             <div class="service-item__more">
-              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+              <div data-modal-id="waiting-area-modal" class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
                 <div class="action-button__bg">
                   <svg id="action-button__know-more"></svg>
                 </div>
@@ -233,7 +233,7 @@
             <div class="service-item__price">250 р/2,5 часа</div>
 
             <div class="service-item__more">
-              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+              <div data-modal-id="club-modal" class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
                 <div class="action-button__bg">
                   <svg id="action-button__know-more"></svg>
                 </div>
@@ -257,7 +257,7 @@
             <div class="service-item__price">300-700 р/мероприятие</div>
 
             <div class="service-item__more">
-              <div class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
+              <div data-modal-id="master-class-modal" class="action-button action-button--blue service-item__action-button" data-rough-fill="blue" data-rough-fill-style="solid">
                 <div class="action-button__bg">
                   <svg id="action-button__know-more"></svg>
                 </div>
@@ -457,12 +457,157 @@
     </div>
 
     <div class="modal__action">
-      <div class="action-button lalala action-button--red modal__action-button" data-rough-animated="true">
+      <div data-modal-id="contacts-modal" class="action-button action-button--red modal__action-button" data-rough-animated="true">
         <div class="action-button__bg">
           <svg></svg>
         </div>
 
         <div class="action-button__content">Записаться на занятие</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="playroom-modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__window">
+    <div class="modal__window-cross">
+      <svg viewBox="0 0 365.696 365.696"><path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0"></path></svg>
+    </div>
+
+    <h3 class="modal__window-title">Игровая комната</h3>
+
+    <div class="modal__content">
+      <div class="text-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum, eaque est inventore itaque iure, laborum neque odio officiis quaerat quia quisquam recusandae, sed voluptatem voluptatibus. Fuga ipsum minima repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+      </div>
+    </div>
+
+    <div class="modal__action">
+      <div data-modal-id="contacts-modal" class="action-button action-button--red modal__action-button" data-rough-animated="true">
+        <div class="action-button__bg">
+          <svg></svg>
+        </div>
+
+        <div class="action-button__content">Записаться</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="coworking-modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__window">
+    <div class="modal__window-cross">
+      <svg viewBox="0 0 365.696 365.696"><path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0"></path></svg>
+    </div>
+
+    <h3 class="modal__window-title">Коворкинг</h3>
+
+    <div class="modal__content">
+      <div class="text-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum, eaque est inventore itaque iure, laborum neque odio officiis quaerat quia quisquam recusandae, sed voluptatem voluptatibus. Fuga ipsum minima repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+      </div>
+    </div>
+
+    <div class="modal__action">
+      <div data-modal-id="contacts-modal" class="action-button action-button--red modal__action-button" data-rough-animated="true">
+        <div class="action-button__bg">
+          <svg></svg>
+        </div>
+
+        <div class="action-button__content">Арендовать место в коворкинге</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="waiting-area-modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__window">
+    <div class="modal__window-cross">
+      <svg viewBox="0 0 365.696 365.696"><path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0"></path></svg>
+    </div>
+
+    <h3 class="modal__window-title">Зона ожидания для родителей</h3>
+
+    <div class="modal__content">
+      <div class="text-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum, eaque est inventore itaque iure, laborum neque odio officiis quaerat quia quisquam recusandae, sed voluptatem voluptatibus. Fuga ipsum minima repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+      </div>
+    </div>
+
+    <div class="modal__action">
+      <div data-modal-id="contacts-modal" class="action-button action-button--red modal__action-button" data-rough-animated="true">
+        <div class="action-button__bg">
+          <svg></svg>
+        </div>
+
+        <div class="action-button__content">Записаться</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="club-modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__window">
+    <div class="modal__window-cross">
+      <svg viewBox="0 0 365.696 365.696"><path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0"></path></svg>
+    </div>
+
+    <h3 class="modal__window-title">Клуб для родителей</h3>
+
+    <div class="modal__content">
+      <div class="text-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum, eaque est inventore itaque iure, laborum neque odio officiis quaerat quia quisquam recusandae, sed voluptatem voluptatibus. Fuga ipsum minima repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+      </div>
+    </div>
+
+    <div class="modal__action">
+      <div data-modal-id="contacts-modal" class="action-button action-button--red modal__action-button" data-rough-animated="true">
+        <div class="action-button__bg">
+          <svg></svg>
+        </div>
+
+        <div class="action-button__content">Записаться</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="master-class-modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__window">
+    <div class="modal__window-cross">
+      <svg viewBox="0 0 365.696 365.696"><path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0"></path></svg>
+    </div>
+
+    <h3 class="modal__window-title">Мастер-классы</h3>
+
+    <div class="modal__content">
+      <div class="text-block">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorum, eaque est inventore itaque iure, laborum neque odio officiis quaerat quia quisquam recusandae, sed voluptatem voluptatibus. Fuga ipsum minima repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim modi nam numquam ratione sunt. Consectetur culpa dolorem ducimus illo, incidunt minus necessitatibus neque optio, quasi quia quibusdam sequi ut vel!</p>
+      </div>
+    </div>
+
+    <div class="modal__action">
+      <div data-modal-id="contacts-modal" class="action-button action-button--red modal__action-button" data-rough-animated="true">
+        <div class="action-button__bg">
+          <svg></svg>
+        </div>
+
+        <div class="action-button__content">Узнать о ближайших мастер-классах</div>
       </div>
     </div>
   </div>

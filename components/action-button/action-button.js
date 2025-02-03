@@ -1,6 +1,6 @@
 import rough from 'roughjs'
 import {eventBus} from "../../shared/event-bus";
-import {EVENT_INIT_ACTIONS_BUTTONS} from "../../shared/events";
+import {EVENT_INIT_ACTIONS_BUTTONS, EVENT_SHOW_MODAL} from "../../shared/events";
 
 const initializedSet = new Set();
 
@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', initActionButtons)
 eventBus.on(EVENT_INIT_ACTIONS_BUTTONS, initActionButtons)
 
 function initActionButtons() {
-  console.log('initActionButtons!')
-
   const $roots = document.querySelectorAll('.action-button')
 
   $roots.forEach($root => {
@@ -51,5 +49,11 @@ function initActionButtons() {
         }
       }
     }
+
+    $root.addEventListener('click', () => {
+      const dataModalId = $root.getAttribute('data-modal-id');
+
+      eventBus.emit(EVENT_SHOW_MODAL, dataModalId)
+    })
   })
 }

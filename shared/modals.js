@@ -1,2 +1,7 @@
 export const MODAL_GROUP_CLASS = 'group-class-modal'
+export const MODAL_PLAYROOM = 'playroom-modal'
+export const MODAL_COWORKING = 'coworking-modal'
+export const MODAL_WAITING_AREA = 'waiting-area-modal'
+export const MODAL_CLUB = 'club-modal'
+export const MODAL_MASTER_CLASS = 'master-class-modal'
 export const MODAL_CONTACTS = 'contacts-modal'
