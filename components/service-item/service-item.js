@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const $roots = document.querySelectorAll('.service-item')
 
   $roots.forEach($root => {
-    drawFrame($root)
+    setTimeout(() => {
+      drawFrame($root)
+    }, 500)
 
     setEventHandlers($root)
   })
