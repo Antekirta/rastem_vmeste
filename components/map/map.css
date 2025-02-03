@@ -1,0 +1,17 @@
+.map {
+  position: relative;
+  border: solid 5px var(--color-brown);
+  border-radius: 5px;
+}
+
+.map__svg {
+  position: absolute;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  top: -4px;
+  left: -4px;
+}
+
+.map__content {
+  position: relative;
+}
