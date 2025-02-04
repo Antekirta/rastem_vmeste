@@ -1,3 +1,5 @@
+import '../components/scroll/scroll.css';
+import '../components/scroll/scroll.js';
 import '../css/variables.css'
 import '../css/style.css'
 import '../css/base.css'

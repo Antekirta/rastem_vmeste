@@ -47,10 +47,16 @@ function updateAppJs(imports) {
   }
 
   imports.forEach(({ jsFile }) => {
-    const relativePath = `../components/${path.basename(path.dirname(jsFile))}/${path.basename(jsFile)}`;
-    const importStatement = `import '${relativePath.replace(/\\/g, '/')}';`;
-    if (!content.includes(importStatement)) {
-      content = `${importStatement}\n${content}`;
+    const relativePathJs = `../components/${path.basename(path.dirname(jsFile))}/${path.basename(jsFile)}`;
+    const importStatementJs = `import '${relativePathJs.replace(/\\/g, '/')}';`;
+    if (!content.includes(importStatementJs)) {
+      content = `${importStatementJs}\n${content}`;
+    }
+
+    const relativePathCss = `../components/${path.basename(path.dirname(jsFile))}/${path.basename(jsFile)}`;
+    const importStatementCss = `import '${relativePathCss.replace(/\\/g, '/')}';`.replace('.js', '.css');
+    if (!content.includes(importStatementCss)) {
+      content = `${importStatementCss}\n${content}`;
     }
   });
 
@@ -80,4 +86,4 @@ function updateStyleCss(imports) {
 // Main process
 const imports = components.map(createComponent);
 updateAppJs(imports);
-updateStyleCss(imports);
+// updateStyleCss(imports);
