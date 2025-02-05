@@ -1,3 +1,5 @@
+import '../components/main-menu-mobile/main-menu-mobile.css';
+import '../components/main-menu-mobile/main-menu-mobile.js';
 import '../components/modal-contacts/modal-contacts.css';
 import '../components/modal-contacts/modal-contacts.js';
 import '../css/variables.css'

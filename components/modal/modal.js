@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       $modal.classList.add(classes.visible);
 
       const $cross = $modal.querySelector('.modal__window-cross');
+      const $overlay = $modal.querySelector('.modal__overlay');
 
       // Define the handler function
       const closeHandler = () => {
@@ -52,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Add the event listener
       $cross.addEventListener('click', closeHandler);
+      $overlay.addEventListener('click', closeHandler);
 
       switch (modalId) {
         case MODAL_GROUP_CLASS:

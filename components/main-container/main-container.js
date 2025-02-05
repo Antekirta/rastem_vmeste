@@ -1,3 +1,6 @@
+import {eventBus} from "../../shared/event-bus";
+import {EVENT_CLOSE_MOBILE_MENU} from "../../shared/events";
+
 document.addEventListener('DOMContentLoaded', () => {
   const $scrollableContainer = document.querySelector('.main-container__content')
   const $anchors = document.querySelectorAll('[data-scroll-anchor]');
@@ -16,6 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault();
 
       const anchor = $anchor.getAttribute('data-scroll-anchor');
+
+      eventBus.emit(EVENT_CLOSE_MOBILE_MENU)
 
       $scrollableContainer.scrollTo({
         top: targetsOffsetsMap[anchor] - 50,

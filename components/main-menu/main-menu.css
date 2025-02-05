@@ -1,6 +1,18 @@
+@media (max-width: 1280px) {
+  .main-menu {
+    display: none;
+  }
+}
+
 .main-menu__list {
   display: flex;
   justify-content: start;
+}
+
+@media (max-width: 768px) {
+  .main-menu__list {
+    flex-direction: column;
+  }
 }
 
 .main-menu__item {
@@ -8,6 +20,18 @@
   padding: 5px 20px;
   margin-left: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .main-menu__item {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-menu__item {
+    margin: 0;
+  }
 }
 
 .main-menu__item-svg {
@@ -26,4 +50,11 @@
   font-size: 24px;
   color: var(--font-color-primary);
   letter-spacing: -1px;
+}
+
+@media (max-width: 1280px) {
+  .main-menu__link {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+  }
 }

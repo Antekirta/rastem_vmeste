@@ -32,6 +32,12 @@
   border-radius: 15px;
 }
 
+@media (max-width: 1280px) {
+  .modal__window {
+    width: 90%;
+  }
+}
+
 .modal__window-cross {
   display: flex;
   align-items: center;

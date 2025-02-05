@@ -17,4 +17,9 @@
   --font-amatic: "Amatic SC", serif;;
   --font-nunito: "Nunito", serif;
   --font-lionel: "Lionel", serif;
+
+  --screen-size-desktop-min: 1280px;
+  --screen-size-tablet-max: 1024px;
+  --screen-size-tablet-min: 768px;
+  --screen-size-tablet-mobile: 360px;
 }

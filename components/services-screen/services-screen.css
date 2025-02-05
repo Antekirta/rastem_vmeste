@@ -5,6 +5,12 @@
   margin-top: 10px;
 }
 
+@media (max-width: 1280px) {
+  .services-screen__services-list {
+    gap: 20px;
+  }
+}
+
 .services-screen__service-item {
   margin-bottom: 50px;
 }

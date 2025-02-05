@@ -35,33 +35,59 @@
   <div class="main-container__content">
     <header class="main-header">
       <div class="container main-header__container">
-        <div class="logo">
+        <div class="logo main-header__logo">
           <img class="logo__img" src="./img/logo__old.png" alt="">
         </div>
 
-        <div class="main-menu main-header__main-menu">
-          <div class="main-menu__list">
-            <div data-scroll-anchor="services" class="main-menu__item">
-              <svg class="main-menu__item-svg"></svg>
+        <div class="main-header__main-menu-mobile">
+          <div class="main-menu-mobile">
+            <div class="main-menu-mobile__overlay"></div>
 
-              <a href="#" class="main-menu__link">Услуги</a>
+            <div class="main-menu-mobile__icon">
+              <svg height="30" viewBox="0 0 24 24" width="30" fill="rgb(50,33,30)"><g><path d="m3.5 7.5h17c.8286133 0 1.5-.6713867 1.5-1.5s-.6713867-1.5-1.5-1.5h-17c-.8286133 0-1.5.6713867-1.5 1.5s.6713867 1.5 1.5 1.5z"></path><path d="m20.5 10.5h-17c-.8286133 0-1.5.6713867-1.5 1.5s.6713867 1.5 1.5 1.5h17c.8286133 0 1.5-.6713867 1.5-1.5s-.6713867-1.5-1.5-1.5z"></path><path d="m20.5 16.5h-17c-.8286133 0-1.5.6713867-1.5 1.5s.6713867 1.5 1.5 1.5h17c.8286133 0 1.5-.6713867 1.5-1.5s-.6713867-1.5-1.5-1.5z"></path></g></svg>
             </div>
 
-            <div data-scroll-anchor="about" class="main-menu__item">
-              <svg class="main-menu__item-svg"></svg>
+            <div class="main-menu-mobile__container">
+              <div class="main-menu-mobile__list">
+                <div data-scroll-anchor="services" class="main-menu-mobile__item">
+                  <a href="#" class="main-menu-mobile__link">Услуги</a>
+                </div>
 
-              <a href="#" class="main-menu__link">О нас</a>
+                <div data-scroll-anchor="about" class="main-menu-mobile__item">
+                  <a href="#" class="main-menu-mobile__link">О нас</a>
+                </div>
+
+                <div data-scroll-anchor="contacts" class="main-menu-mobile__item">
+                  <a href="#" class="main-menu-mobile__link">Контакты</a>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <div data-scroll-anchor="contacts" class="main-menu__item">
-              <svg class="main-menu__item-svg"></svg>
+          <div class="main-menu">
+            <div class="main-menu__list">
+              <div data-scroll-anchor="services" class="main-menu__item">
+                <svg class="main-menu__item-svg"></svg>
 
-              <a href="#" class="main-menu__link">Контакты</a>
+                <a href="#" class="main-menu__link">Услуги</a>
+              </div>
+
+              <div data-scroll-anchor="about" class="main-menu__item">
+                <svg class="main-menu__item-svg"></svg>
+
+                <a href="#" class="main-menu__link">О нас</a>
+              </div>
+
+              <div data-scroll-anchor="contacts" class="main-menu__item">
+                <svg class="main-menu__item-svg"></svg>
+
+                <a href="#" class="main-menu__link">Контакты</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="contact-panel">
+        <div class="contact-panel main-header__contact-panel">
           <div data-modal-id="contacts-modal" class="action-button action-button--red contact-panel__action-button" data-rough-animated="true">
             <div class="action-button__bg">
               <svg></svg>
@@ -83,6 +109,10 @@
       </div>
 
       <div class="title-screen__title">
+        <div class="logo title-screen__logo">
+          <img class="logo__img" src="./img/logo__old.png" alt="">
+        </div>
+
         <h1 class="title-screen__header">Растём Вместе</h1>
 
         <div class="title-screen__description">
@@ -398,7 +428,7 @@
             <svg class="map__svg"></svg>
 
             <div class="map__content">
-              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa173fdf52a6259eb8adbf390439064e645c08b93ff55db7ff6fae7135421798b&amp;width=650&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>          </div>
+              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa173fdf52a6259eb8adbf390439064e645c08b93ff55db7ff6fae7135421798b&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>            </div>
             </div>
         </figure>
       </div>
