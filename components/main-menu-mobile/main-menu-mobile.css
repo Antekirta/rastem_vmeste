@@ -41,7 +41,7 @@
   left: -200px;
   width: 160px;
   height: 100vh;
-  padding: 100px 20px 30px 20px;
+  padding: 30px 20px 30px 20px;
   transition: .2s;
   background: var(--color-brown--light);
   z-index: 6;
@@ -50,6 +50,10 @@
 
 .main-menu-mobile__list {
 
+}
+
+.main-menu-mobile__logo {
+  margin-bottom: 30px;
 }
 
 .main-menu-mobile__item {
