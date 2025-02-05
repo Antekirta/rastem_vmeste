@@ -86,4 +86,4 @@ function updateStyleCss(imports) {
 // Main process
 const imports = components.map(createComponent);
 updateAppJs(imports);
-// updateStyleCss(imports);
+updateStyleCss(imports);

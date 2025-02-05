@@ -20,13 +20,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(50,33,30, .7);
+  background: rgba(69,68,66, .9);
 }
 
 .modal__window {
   position: relative;
   width: 800px;
-  height: 650px;
+  max-height: 650px;
   background: var(--color-brown--light);
   border: solid 5px var(--color-brown);
   border-radius: 15px;
@@ -67,7 +67,7 @@
 }
 
 .modal__content {
-  height: 400px;
+  max-height: 400px;
   padding: 20px 40px;
   overflow: auto;
 }
@@ -98,6 +98,7 @@
 .modal__action {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
   margin-top: 30px;
 }
 

@@ -2,12 +2,12 @@
   position: relative;
   display: inline-block;
   cursor: pointer;
-  letter-spacing: -0.6px;
-
   font-family: var(--font-lionel);
   font-size: 22px;
   font-weight: bold;
   letter-spacing: -0.5px;
+  text-decoration: none;
+  color: var(--font-color-primary);
 }
 
 .action-button:hover {
@@ -23,6 +23,14 @@
 
 .action-button--red:hover {
   background: var(--font-color-accent);
+}
+
+.action-button--whatsapp:hover {
+  background: var(--color-whatsapp);
+}
+
+.action-button--telegram:hover {
+  background: var(--color-telegram);
 }
 
 .action-button__bg {

@@ -4,25 +4,14 @@
   margin-bottom: 10px !important;
 }
 
-.contact-screen__contact {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-}
-
-.contact-screen__contact-label {
-  font-size: 18px;
-}
-
 .contact-screen__contact-label svg {
   width: 20px;
 }
 
 .contact-screen__phone {
-  display: block;
-  height: 23px;
-  padding: 0 5px;
+  display: inline;
   border-bottom: solid 1px var(--font-color-secondary);
+  font-size: 18px;
   font-weight: 700;
   color: var(--font-color-primary);
   letter-spacing: -1px;
@@ -33,4 +22,9 @@
 .contact-screen__phone:hover {
   color: var(--font-color-accent);
   border-color: var(--font-color-accent);
+}
+
+.contact-screen__social {
+  display: flex;
+  gap: 30px;
 }

@@ -1,5 +1,5 @@
-import '../components/scroll/scroll.css';
-import '../components/scroll/scroll.js';
+import '../components/modal-contacts/modal-contacts.css';
+import '../components/modal-contacts/modal-contacts.js';
 import '../css/variables.css'
 import '../css/style.css'
 import '../css/base.css'

@@ -3,6 +3,8 @@
   --color-brown--light: rgb(192,166,145);
   --color-brown--lightest: rgba(216, 211, 195, 1);
   --color-blue: rgb(149,172,173);
+  --color-whatsapp: rgb(44,183,66);
+  --color-telegram: rgb(39,167,232);
 
   /* Fonts */
   --font-color-primary: rgb(43,47,68); /* Основной текст */

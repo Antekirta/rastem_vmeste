@@ -8,6 +8,13 @@ document.addEventListener('DOMContentLoaded', initActionButtons)
 
 eventBus.on(EVENT_INIT_ACTIONS_BUTTONS, initActionButtons)
 
+const fillColors = {
+  blue: 'rgb(149,172,173)',
+  red: 'rgb(220,157,138)',
+  whatsapp: 'rgb(44,183,66)',
+  telegram: 'rgb(39,167,232)'
+}
+
 function initActionButtons() {
   const $roots = document.querySelectorAll('.action-button')
 
@@ -24,7 +31,7 @@ function initActionButtons() {
             roughness: 2,
             strokeWidth: 6,
             stroke: 'rgb(50,33,30)',
-            fill: $root.getAttribute('data-rough-fill') === 'blue' ? 'rgb(149,172,173)' : 'rgb(220,157,138)',
+            fill: fillColors[ $root.getAttribute('data-rough-fill')] || fillColors.red,
             fillStyle: $root.getAttribute('data-rough-fill-style') || 'zigzag',
             hachureGap: 10
           }
