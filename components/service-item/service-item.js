@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   $roots.forEach($root => {
     setTimeout(() => {
       drawFrame($root)
-    }, 500)
+    }, 700)
 
     setEventHandlers($root)
   })

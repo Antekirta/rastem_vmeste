@@ -1,5 +1,12 @@
 .main-menu-mobile {
   position: relative;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .main-menu-mobile {
+    display: block;
+  }
 }
 
 .main-menu-mobile--open .main-menu-mobile__container {

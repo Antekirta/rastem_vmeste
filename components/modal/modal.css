@@ -72,6 +72,13 @@
   letter-spacing: -2px;
 }
 
+@media (max-width: 780px) {
+  .modal__window-title {
+    padding: 20px 10px 10px 10px;
+    font-size: 30px;
+  }
+}
+
 .modal__content {
   max-height: 400px;
   padding: 20px 40px;
