@@ -5,7 +5,9 @@ import rough from "roughjs";
 document.addEventListener('DOMContentLoaded', () => {
   const $root = document.querySelector('.title-screen')
 
-  drawWindows($root)
+  if (window.innerWidth > 780) {
+    drawWindows($root)
+  }
 
   setEventHandlers($root)
 })

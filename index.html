@@ -24,9 +24,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Reddit+Mono:wght@900&display=swap" rel="stylesheet">
+
+  <style>
+    .dissolving-bg {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      z-index: 999;
+      background: rgb(192,166,145);
+      animation: dissolve-bg forwards 1s;
+    }
+
+    @keyframes dissolve-bg {
+      0% {
+        display: block;
+        opacity: 1;
+      }
+      90% {
+        display: block;
+        opacity: 0;
+      }
+      100% {
+        display: none;
+        opacity: 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
+<div class="dissolving-bg"></div>
+
 <div class="main-bg"></div>
 
 <div class="main-container">
@@ -106,11 +134,18 @@
     <section class="section title-screen">
       <div class="title-screen__image-left">
         <svg class="title-screen__house-svg"></svg>
-        <img width="450" height="451" src="./img/house.webp" alt="">
+
+        <picture>
+          <source srcset="./img/house.webp" media="(min-width: 780px)">
+          <img src="" alt="">
+        </picture>
       </div>
 
       <div class="title-screen__image-right">
-        <img width="450" height="472" src="./img/cabinet.webp" alt="">
+        <picture>
+          <source srcset="./img/cabinet.webp" media="(min-width: 780px)">
+          <img src="" alt="">
+        </picture>
       </div>
 
       <div class="title-screen__title">
@@ -665,6 +700,6 @@
   </div>
 </div>
 
-<script src="js/app.js"></script>
+<script defer src="js/app.js"></script>
 </body>
 </html>
