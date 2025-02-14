@@ -1,3 +1,4 @@
 .about-screen__text-block {
   margin-bottom: 50px;
+  content-visibility: auto;
 }

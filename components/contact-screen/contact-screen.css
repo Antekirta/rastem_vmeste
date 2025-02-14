@@ -1,3 +1,7 @@
+.contact-screen {
+  content-visibility: auto;
+}
+
 .contact-screen__text p {
   font-size: 20px;
   line-height: 30px;
